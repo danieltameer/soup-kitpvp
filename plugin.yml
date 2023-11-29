@@ -1,0 +1,101 @@
+name: KitPVP
+main: com.griffinpvp.kitpvp.KitPVP
+version: 1.0
+depend: [ProtocolLib]
+
+commands:
+  help:
+    description: Get help.
+    usage: /<commmand>
+  repair:
+    description: Repair all your items.
+    usage: /<command>
+  setspawn:
+    description: Set the spawn point.
+    usage: /<command>
+  spawn:
+    description: Teleport to spawn.
+    usage: /<command>
+  stats:
+    description: See someone's stats.
+    usage: /<command>
+  statstopb:
+    description: See the top 10 kills.
+    usage: /<command>
+  suicide:
+    description: Suicide.
+    usage: /<command>
+  warp:
+    description: Warp.
+    usage: /<command> <args>
+    aliases: [warpto, go, goto]
+
+  applykit:
+    description: Apply a kit to all players in a radius from you.
+    usage: /<command> <kit> <radius>
+    aliases: [skit]
+
+  1v1:
+
+
+  lms:
+    description: Main command for the last man standing event.
+    usage: /<command> <args>
+    aliases: [host]
+  
+  slap:
+    description: Main command for slap event.
+    usage: /<command> <args>
+
+  kit:
+    description: Choose a kit.
+    usage: /<command> [kit]
+  kits:
+    description: See the kit list.
+    usage: /<command>
+
+  pvp:
+    description: Choose the PvP kit.
+    usage: /<command>
+  archer:
+    description: Choose the Archer kit.
+    usage: /<command>
+  bunny:
+    description: Choose the Bunny kit.
+    usage: /<command>
+  blink:
+    description: Choose kit.
+    usage: /<command>
+  kangaroo:
+    description: Choose kit.
+    usage: /<command>
+  double:
+    description: Choose the Double kit.
+    usage: /<command>
+  elite:
+    description: Choose the Elite kit.
+    usage: /<command>
+  blizzard:
+    description: Choose the Blizzard kit.
+    usage: /<command>
+  scorpion:
+    description: Choose the Scorpion kit.
+    usage: /<command>
+  cheetah:
+    description: Choose the cheetah kit.
+    usage: /<command>
+  eagle:
+    description: Choose the Eagle kit.
+    usage: /<command>
+  flash:
+    description: Choose the Flash kit.
+    usage: /<command>
+  ninja:
+    description: Choose the Ninja kit.
+    usage: /<command>
+  dwarf:
+    description: Choose the dwarf kit.
+    usage: /<command>
+  bal:
+    description: bal
+    usage: /<command>
